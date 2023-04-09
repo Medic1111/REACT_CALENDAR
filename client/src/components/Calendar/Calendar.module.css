@@ -1,0 +1,71 @@
+.div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5em;
+  z-index: 9999999999999999;
+  /* TEMP */
+  /* background-color: black; */
+}
+.weekDays {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* TEMP */
+}
+
+.h2,
+.h3 {
+  width: 100%;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5em;
+  height: 5vh;
+  /* temp */
+  color: black;
+}
+.h3 {
+  margin: 1.25vh 0;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.p,
+.pWeek,
+.pUnavailable {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 1.5em;
+  /* TEMP */
+  color: black;
+}
+
+.pUnavailable {
+  background-color: rgba(255, 99, 71, 0.092);
+}
+.pWeek {
+  background-color: goldenrod;
+}
+.p:hover {
+  cursor: pointer;
+  background-color: #f2e8b9;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.span {
+  color: goldenrod;
+}
+
+.span:hover {
+  cursor: pointer;
+  color: #e4c84b;
+}

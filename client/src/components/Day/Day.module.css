@@ -1,0 +1,16 @@
+.p,
+.pWeek,
+.pUnavailable {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 1.5em;
+  /* TEMP */
+  color: black;
+}
+
+.pUnavailable {
+  background-color: rgba(255, 99, 71, 0.092);
+}
